@@ -4,6 +4,9 @@ import time
 import subprocess
 
 def main():
+    # with open("yamls.csv", "w") as text_file:
+    #     print(f"repo,workflow_name,workflow_path,workflow_link", file=text_file)
+    
     # GET THE PROJECTS
     os.chdir("..")
     repositories = utils.get_filtered_repos()
@@ -37,6 +40,8 @@ def main():
             yaml_shas = []
 
             for file_path in yml_files_path:
+                # with open("yamls.csv", "a") as text_file:
+                #     print(f"{repo},{file_path},https://github.com/{forked_owner}/{repo}/blob/{default_branch}/{file_path}", file=text_file)
                 try:
                     yaml_file, yaml_sha = utils.get_yaml_file("optimizing-ci-builds", repo, file_path)
                 except ValueError as error:
@@ -44,6 +49,9 @@ def main():
                     # continue
                     pass
                 loaded_yaml = utils.load_yaml(yaml_file)
+                # workflow_name = loaded_yaml["name"]
+                # with open("yamls.csv", "a") as text_file:
+                #     print(f"{repo},{workflow_name},{file_path},https://github.com/{forked_owner}/{repo}/blob/{default_branch}/{file_path}", file=text_file)
                 job_with_matrix = utils.get_job_with_matrix(loaded_yaml)   
                 default_python_version = utils.get_python_version(loaded_yaml)             
                 branch_name=str(time1)+'-'+commit

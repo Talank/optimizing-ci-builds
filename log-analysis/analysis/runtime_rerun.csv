@@ -1,0 +1,6 @@
+Project,Job,Step,Runtime_with_fix,Runtime_wo_fix,step-runtime_w_fix,step-runtime_wo_fix,commit_sha_with_fix,commit_sha_wo_fix,branch_w_fix,branch_wo_fix,iteration
+spring-framework-petclinic,build (19),Build with Maven,,,,,5741a764ee21c9fccb631c7796c7d81b7b236a07,2119fbb4c513cc903af2c5fed5599dfa40a9cb6c,fixes-1679767722941,wo-fixes-1679767722941,1
+spring-framework-petclinic,build (19),Build with Maven,,,,,5741a764ee21c9fccb631c7796c7d81b7b236a07,2119fbb4c513cc903af2c5fed5599dfa40a9cb6c,fixes-1679767724651,wo-fixes-1679767724651,2
+spring-framework-petclinic,build (19),Build with Maven,,,,,5741a764ee21c9fccb631c7796c7d81b7b236a07,2119fbb4c513cc903af2c5fed5599dfa40a9cb6c,fixes-1679767726232,wo-fixes-1679767726232,3
+spring-framework-petclinic,build (19),Build with Maven,,,,,5741a764ee21c9fccb631c7796c7d81b7b236a07,2119fbb4c513cc903af2c5fed5599dfa40a9cb6c,fixes-1679767727786,wo-fixes-1679767727786,4
+spring-framework-petclinic,build (19),Build with Maven,,,,,5741a764ee21c9fccb631c7796c7d81b7b236a07,2119fbb4c513cc903af2c5fed5599dfa40a9cb6c,fixes-1679767729406,wo-fixes-1679767729406,5

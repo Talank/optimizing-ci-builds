@@ -1,0 +1,2009 @@
+{
+  "total_count": 9,
+  "jobs": [
+    {
+      "id": 11534555624,
+      "run_id": 4247848542,
+      "workflow_name": "Java CI",
+      "head_branch": "optimizing-ci-builds",
+      "run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/runs/4247848542",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOIAifNc8AAAACr4NZ6A",
+      "head_sha": "f4c9b71ea45a78c66b5884cc6ca534e629764347",
+      "url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/jobs/11534555624",
+      "html_url": "https://github.com/optimizing-ci-builds/99-problems/actions/runs/4247848542/jobs/7386347279",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2023-02-22T23:19:05Z",
+      "started_at": "2023-02-22T23:21:23Z",
+      "completed_at": "2023-02-22T23:22:07Z",
+      "name": "Test JDK 8, ubuntu-latest",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2023-02-22T17:21:22.000-06:00",
+          "completed_at": "2023-02-22T17:21:24.000-06:00"
+        },
+        {
+          "name": "Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2023-02-22T17:21:24.000-06:00",
+          "completed_at": "2023-02-22T17:21:24.000-06:00"
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2023-02-22T17:21:24.000-06:00",
+          "completed_at": "2023-02-22T17:21:36.000-06:00"
+        },
+        {
+          "name": "Run sudo apt update",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2023-02-22T17:21:36.000-06:00",
+          "completed_at": "2023-02-22T17:21:41.000-06:00"
+        },
+        {
+          "name": "Run sudo apt install inotify-tools",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2023-02-22T17:21:41.000-06:00",
+          "completed_at": "2023-02-22T17:21:45.000-06:00"
+        },
+        {
+          "name": "Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds'",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2023-02-22T17:21:45.000-06:00",
+          "completed_at": "2023-02-22T17:21:50.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2023-02-22T17:21:50.000-06:00",
+          "completed_at": "2023-02-22T17:21:50.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2023-02-22T17:21:50.000-06:00",
+          "completed_at": "2023-02-22T17:21:50.000-06:00"
+        },
+        {
+          "name": "Run actions/checkout@v1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2023-02-22T17:21:50.000-06:00",
+          "completed_at": "2023-02-22T17:21:51.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2023-02-22T17:21:52.000-06:00",
+          "completed_at": "2023-02-22T17:21:52.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2023-02-22T17:21:52.000-06:00",
+          "completed_at": "2023-02-22T17:21:52.000-06:00"
+        },
+        {
+          "name": "Set up JDK",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12,
+          "started_at": "2023-02-22T17:21:52.000-06:00",
+          "completed_at": "2023-02-22T17:21:54.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13,
+          "started_at": "2023-02-22T17:21:54.000-06:00",
+          "completed_at": "2023-02-22T17:21:54.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 14,
+          "started_at": "2023-02-22T17:21:54.000-06:00",
+          "completed_at": "2023-02-22T17:21:54.000-06:00"
+        },
+        {
+          "name": "Test with Maven",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2023-02-22T17:21:55.000-06:00",
+          "completed_at": "2023-02-22T17:22:03.000-06:00"
+        },
+        {
+          "name": "Run touch starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2023-02-22T17:22:04.000-06:00",
+          "completed_at": "2023-02-22T17:22:04.000-06:00"
+        },
+        {
+          "name": "Run rm starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2023-02-22T17:22:04.000-06:00",
+          "completed_at": "2023-02-22T17:22:04.000-06:00"
+        },
+        {
+          "name": "Execute py script",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 18,
+          "started_at": "2023-02-22T17:22:04.000-06:00",
+          "completed_at": "2023-02-22T17:22:04.000-06:00"
+        },
+        {
+          "name": "Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2023-02-22T17:22:04.000-06:00",
+          "completed_at": "2023-02-22T17:22:05.000-06:00"
+        },
+        {
+          "name": "Copy files to push to another directory",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 20,
+          "started_at": "2023-02-22T17:22:05.000-06:00",
+          "completed_at": "2023-02-22T17:22:05.000-06:00"
+        },
+        {
+          "name": "Pushes analysis to another repository",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21,
+          "started_at": "2023-02-22T17:22:05.000-06:00",
+          "completed_at": "2023-02-22T17:22:05.000-06:00"
+        },
+        {
+          "name": "Post Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 40,
+          "started_at": "2023-02-22T17:22:06.000-06:00",
+          "completed_at": "2023-02-22T17:22:06.000-06:00"
+        },
+        {
+          "name": "Post Set up JDK",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 41,
+          "started_at": "2023-02-22T17:22:06.000-06:00",
+          "completed_at": "2023-02-22T17:22:06.000-06:00"
+        },
+        {
+          "name": "Post Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 42,
+          "started_at": "2023-02-22T17:22:06.000-06:00",
+          "completed_at": "2023-02-22T17:22:06.000-06:00"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 43,
+          "started_at": "2023-02-22T17:22:06.000-06:00",
+          "completed_at": "2023-02-22T17:22:06.000-06:00"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/check-runs/11534555624",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 36,
+      "runner_name": "GitHub Actions 17",
+      "runner_group_id": 2,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 11534555745,
+      "run_id": 4247848542,
+      "workflow_name": "Java CI",
+      "head_branch": "optimizing-ci-builds",
+      "run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/runs/4247848542",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOIAifNc8AAAACr4NaYQ",
+      "head_sha": "f4c9b71ea45a78c66b5884cc6ca534e629764347",
+      "url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/jobs/11534555745",
+      "html_url": "https://github.com/optimizing-ci-builds/99-problems/actions/runs/4247848542/jobs/7386347366",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2023-02-22T23:19:05Z",
+      "started_at": "2023-02-22T23:20:59Z",
+      "completed_at": "2023-02-22T23:21:44Z",
+      "name": "Test JDK 11, ubuntu-latest",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2023-02-22T17:20:58.000-06:00",
+          "completed_at": "2023-02-22T17:21:00.000-06:00"
+        },
+        {
+          "name": "Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2023-02-22T17:21:00.000-06:00",
+          "completed_at": "2023-02-22T17:21:00.000-06:00"
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2023-02-22T17:21:00.000-06:00",
+          "completed_at": "2023-02-22T17:21:11.000-06:00"
+        },
+        {
+          "name": "Run sudo apt update",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2023-02-22T17:21:11.000-06:00",
+          "completed_at": "2023-02-22T17:21:15.000-06:00"
+        },
+        {
+          "name": "Run sudo apt install inotify-tools",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2023-02-22T17:21:16.000-06:00",
+          "completed_at": "2023-02-22T17:21:19.000-06:00"
+        },
+        {
+          "name": "Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds'",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2023-02-22T17:21:19.000-06:00",
+          "completed_at": "2023-02-22T17:21:24.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2023-02-22T17:21:25.000-06:00",
+          "completed_at": "2023-02-22T17:21:25.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2023-02-22T17:21:25.000-06:00",
+          "completed_at": "2023-02-22T17:21:25.000-06:00"
+        },
+        {
+          "name": "Run actions/checkout@v1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2023-02-22T17:21:25.000-06:00",
+          "completed_at": "2023-02-22T17:21:25.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2023-02-22T17:21:26.000-06:00",
+          "completed_at": "2023-02-22T17:21:26.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2023-02-22T17:21:26.000-06:00",
+          "completed_at": "2023-02-22T17:21:26.000-06:00"
+        },
+        {
+          "name": "Set up JDK",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12,
+          "started_at": "2023-02-22T17:21:26.000-06:00",
+          "completed_at": "2023-02-22T17:21:31.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13,
+          "started_at": "2023-02-22T17:21:31.000-06:00",
+          "completed_at": "2023-02-22T17:21:31.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 14,
+          "started_at": "2023-02-22T17:21:31.000-06:00",
+          "completed_at": "2023-02-22T17:21:31.000-06:00"
+        },
+        {
+          "name": "Test with Maven",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2023-02-22T17:21:31.000-06:00",
+          "completed_at": "2023-02-22T17:21:41.000-06:00"
+        },
+        {
+          "name": "Run touch starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2023-02-22T17:21:41.000-06:00",
+          "completed_at": "2023-02-22T17:21:41.000-06:00"
+        },
+        {
+          "name": "Run rm starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2023-02-22T17:21:41.000-06:00",
+          "completed_at": "2023-02-22T17:21:41.000-06:00"
+        },
+        {
+          "name": "Execute py script",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 18,
+          "started_at": "2023-02-22T17:21:41.000-06:00",
+          "completed_at": "2023-02-22T17:21:41.000-06:00"
+        },
+        {
+          "name": "Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2023-02-22T17:21:41.000-06:00",
+          "completed_at": "2023-02-22T17:21:42.000-06:00"
+        },
+        {
+          "name": "Copy files to push to another directory",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 20,
+          "started_at": "2023-02-22T17:21:43.000-06:00",
+          "completed_at": "2023-02-22T17:21:43.000-06:00"
+        },
+        {
+          "name": "Pushes analysis to another repository",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21,
+          "started_at": "2023-02-22T17:21:43.000-06:00",
+          "completed_at": "2023-02-22T17:21:43.000-06:00"
+        },
+        {
+          "name": "Post Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 40,
+          "started_at": "2023-02-22T17:21:44.000-06:00",
+          "completed_at": "2023-02-22T17:21:44.000-06:00"
+        },
+        {
+          "name": "Post Set up JDK",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 41,
+          "started_at": "2023-02-22T17:21:44.000-06:00",
+          "completed_at": "2023-02-22T17:21:44.000-06:00"
+        },
+        {
+          "name": "Post Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 42,
+          "started_at": "2023-02-22T17:21:44.000-06:00",
+          "completed_at": "2023-02-22T17:21:44.000-06:00"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 43,
+          "started_at": "2023-02-22T17:21:43.000-06:00",
+          "completed_at": "2023-02-22T17:21:43.000-06:00"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/check-runs/11534555745",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 26,
+      "runner_name": "GitHub Actions 8",
+      "runner_group_id": 2,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 11534555881,
+      "run_id": 4247848542,
+      "workflow_name": "Java CI",
+      "head_branch": "optimizing-ci-builds",
+      "run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/runs/4247848542",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOIAifNc8AAAACr4Na6Q",
+      "head_sha": "f4c9b71ea45a78c66b5884cc6ca534e629764347",
+      "url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/jobs/11534555881",
+      "html_url": "https://github.com/optimizing-ci-builds/99-problems/actions/runs/4247848542/jobs/7386347466",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2023-02-22T23:19:06Z",
+      "started_at": "2023-02-22T23:21:07Z",
+      "completed_at": "2023-02-22T23:21:53Z",
+      "name": "Test JDK 15, ubuntu-latest",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2023-02-22T17:21:07.000-06:00",
+          "completed_at": "2023-02-22T17:21:08.000-06:00"
+        },
+        {
+          "name": "Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2023-02-22T17:21:08.000-06:00",
+          "completed_at": "2023-02-22T17:21:09.000-06:00"
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2023-02-22T17:21:09.000-06:00",
+          "completed_at": "2023-02-22T17:21:19.000-06:00"
+        },
+        {
+          "name": "Run sudo apt update",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2023-02-22T17:21:19.000-06:00",
+          "completed_at": "2023-02-22T17:21:24.000-06:00"
+        },
+        {
+          "name": "Run sudo apt install inotify-tools",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2023-02-22T17:21:24.000-06:00",
+          "completed_at": "2023-02-22T17:21:28.000-06:00"
+        },
+        {
+          "name": "Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds'",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2023-02-22T17:21:28.000-06:00",
+          "completed_at": "2023-02-22T17:21:33.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2023-02-22T17:21:33.000-06:00",
+          "completed_at": "2023-02-22T17:21:33.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2023-02-22T17:21:33.000-06:00",
+          "completed_at": "2023-02-22T17:21:33.000-06:00"
+        },
+        {
+          "name": "Run actions/checkout@v1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2023-02-22T17:21:33.000-06:00",
+          "completed_at": "2023-02-22T17:21:34.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2023-02-22T17:21:34.000-06:00",
+          "completed_at": "2023-02-22T17:21:34.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2023-02-22T17:21:34.000-06:00",
+          "completed_at": "2023-02-22T17:21:34.000-06:00"
+        },
+        {
+          "name": "Set up JDK",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12,
+          "started_at": "2023-02-22T17:21:34.000-06:00",
+          "completed_at": "2023-02-22T17:21:39.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13,
+          "started_at": "2023-02-22T17:21:40.000-06:00",
+          "completed_at": "2023-02-22T17:21:40.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 14,
+          "started_at": "2023-02-22T17:21:40.000-06:00",
+          "completed_at": "2023-02-22T17:21:40.000-06:00"
+        },
+        {
+          "name": "Test with Maven",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2023-02-22T17:21:40.000-06:00",
+          "completed_at": "2023-02-22T17:21:49.000-06:00"
+        },
+        {
+          "name": "Run touch starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2023-02-22T17:21:49.000-06:00",
+          "completed_at": "2023-02-22T17:21:49.000-06:00"
+        },
+        {
+          "name": "Run rm starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2023-02-22T17:21:49.000-06:00",
+          "completed_at": "2023-02-22T17:21:49.000-06:00"
+        },
+        {
+          "name": "Execute py script",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 18,
+          "started_at": "2023-02-22T17:21:49.000-06:00",
+          "completed_at": "2023-02-22T17:21:49.000-06:00"
+        },
+        {
+          "name": "Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2023-02-22T17:21:49.000-06:00",
+          "completed_at": "2023-02-22T17:21:50.000-06:00"
+        },
+        {
+          "name": "Copy files to push to another directory",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 20,
+          "started_at": "2023-02-22T17:21:51.000-06:00",
+          "completed_at": "2023-02-22T17:21:51.000-06:00"
+        },
+        {
+          "name": "Pushes analysis to another repository",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21,
+          "started_at": "2023-02-22T17:21:51.000-06:00",
+          "completed_at": "2023-02-22T17:21:51.000-06:00"
+        },
+        {
+          "name": "Post Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 40,
+          "started_at": "2023-02-22T17:21:51.000-06:00",
+          "completed_at": "2023-02-22T17:21:51.000-06:00"
+        },
+        {
+          "name": "Post Set up JDK",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 41,
+          "started_at": "2023-02-22T17:21:51.000-06:00",
+          "completed_at": "2023-02-22T17:21:51.000-06:00"
+        },
+        {
+          "name": "Post Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 42,
+          "started_at": "2023-02-22T17:21:51.000-06:00",
+          "completed_at": "2023-02-22T17:21:51.000-06:00"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 43,
+          "started_at": "2023-02-22T17:21:51.000-06:00",
+          "completed_at": "2023-02-22T17:21:51.000-06:00"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/check-runs/11534555881",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 34,
+      "runner_name": "GitHub Actions 16",
+      "runner_group_id": 2,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 11534555975,
+      "run_id": 4247848542,
+      "workflow_name": "Java CI",
+      "head_branch": "optimizing-ci-builds",
+      "run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/runs/4247848542",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOIAifNc8AAAACr4NbRw",
+      "head_sha": "f4c9b71ea45a78c66b5884cc6ca534e629764347",
+      "url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/jobs/11534555975",
+      "html_url": "https://github.com/optimizing-ci-builds/99-problems/actions/runs/4247848542/jobs/7386347534",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2023-02-22T23:19:06Z",
+      "started_at": "2023-02-22T23:20:20Z",
+      "completed_at": "2023-02-22T23:20:51Z",
+      "name": "Test JDK 8, macOS-latest",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2023-02-22T17:20:20.000-06:00",
+          "completed_at": "2023-02-22T17:20:24.000-06:00"
+        },
+        {
+          "name": "Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2023-02-22T17:20:24.000-06:00",
+          "completed_at": "2023-02-22T17:20:25.000-06:00"
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2023-02-22T17:20:25.000-06:00",
+          "completed_at": "2023-02-22T17:20:45.000-06:00"
+        },
+        {
+          "name": "Run sudo apt update",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 4,
+          "started_at": "2023-02-22T17:20:45.000-06:00",
+          "completed_at": "2023-02-22T17:20:45.000-06:00"
+        },
+        {
+          "name": "Run sudo apt install inotify-tools",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 5,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds'",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 6,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 7,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 8,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Run actions/checkout@v1",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 10,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 11,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Set up JDK",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 12,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 13,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 14,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Test with Maven",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 15,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Run touch starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Run rm starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Execute py script",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 18,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:46.000-06:00"
+        },
+        {
+          "name": "Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2023-02-22T17:20:46.000-06:00",
+          "completed_at": "2023-02-22T17:20:48.000-06:00"
+        },
+        {
+          "name": "Copy files to push to another directory",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 20,
+          "started_at": "2023-02-22T17:20:48.000-06:00",
+          "completed_at": "2023-02-22T17:20:48.000-06:00"
+        },
+        {
+          "name": "Pushes analysis to another repository",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 21,
+          "started_at": "2023-02-22T17:20:48.000-06:00",
+          "completed_at": "2023-02-22T17:20:48.000-06:00"
+        },
+        {
+          "name": "Post Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 41,
+          "started_at": "2023-02-22T17:20:49.000-06:00",
+          "completed_at": "2023-02-22T17:20:49.000-06:00"
+        },
+        {
+          "name": "Post Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 42,
+          "started_at": "2023-02-22T17:20:49.000-06:00",
+          "completed_at": "2023-02-22T17:20:49.000-06:00"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 43,
+          "started_at": "2023-02-22T17:20:49.000-06:00",
+          "completed_at": "2023-02-22T17:20:49.000-06:00"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/check-runs/11534555975",
+      "labels": [
+        "macOS-latest"
+      ],
+      "runner_id": 26,
+      "runner_name": "GitHub Actions 8",
+      "runner_group_id": 2,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 11534556066,
+      "run_id": 4247848542,
+      "workflow_name": "Java CI",
+      "head_branch": "optimizing-ci-builds",
+      "run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/runs/4247848542",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOIAifNc8AAAACr4Nbog",
+      "head_sha": "f4c9b71ea45a78c66b5884cc6ca534e629764347",
+      "url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/jobs/11534556066",
+      "html_url": "https://github.com/optimizing-ci-builds/99-problems/actions/runs/4247848542/jobs/7386347605",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2023-02-22T23:19:07Z",
+      "started_at": "2023-02-22T23:36:34Z",
+      "completed_at": "2023-02-22T23:37:06Z",
+      "name": "Test JDK 11, macOS-latest",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2023-02-22T17:36:34.000-06:00",
+          "completed_at": "2023-02-22T17:36:37.000-06:00"
+        },
+        {
+          "name": "Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2023-02-22T17:36:37.000-06:00",
+          "completed_at": "2023-02-22T17:36:39.000-06:00"
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2023-02-22T17:36:39.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Run sudo apt update",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 4,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Run sudo apt install inotify-tools",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 5,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds'",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 6,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 7,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 8,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Run actions/checkout@v1",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 10,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 11,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Set up JDK",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 12,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 13,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 14,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Test with Maven",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 15,
+          "started_at": "2023-02-22T17:36:59.000-06:00",
+          "completed_at": "2023-02-22T17:36:59.000-06:00"
+        },
+        {
+          "name": "Run touch starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2023-02-22T17:37:00.000-06:00",
+          "completed_at": "2023-02-22T17:37:00.000-06:00"
+        },
+        {
+          "name": "Run rm starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2023-02-22T17:37:00.000-06:00",
+          "completed_at": "2023-02-22T17:37:00.000-06:00"
+        },
+        {
+          "name": "Execute py script",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 18,
+          "started_at": "2023-02-22T17:37:00.000-06:00",
+          "completed_at": "2023-02-22T17:37:00.000-06:00"
+        },
+        {
+          "name": "Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2023-02-22T17:37:00.000-06:00",
+          "completed_at": "2023-02-22T17:37:03.000-06:00"
+        },
+        {
+          "name": "Copy files to push to another directory",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 20,
+          "started_at": "2023-02-22T17:37:03.000-06:00",
+          "completed_at": "2023-02-22T17:37:03.000-06:00"
+        },
+        {
+          "name": "Pushes analysis to another repository",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 21,
+          "started_at": "2023-02-22T17:37:03.000-06:00",
+          "completed_at": "2023-02-22T17:37:03.000-06:00"
+        },
+        {
+          "name": "Post Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 41,
+          "started_at": "2023-02-22T17:37:04.000-06:00",
+          "completed_at": "2023-02-22T17:37:04.000-06:00"
+        },
+        {
+          "name": "Post Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 42,
+          "started_at": "2023-02-22T17:37:06.000-06:00",
+          "completed_at": "2023-02-22T17:37:06.000-06:00"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 43,
+          "started_at": "2023-02-22T17:37:04.000-06:00",
+          "completed_at": "2023-02-22T17:37:04.000-06:00"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/check-runs/11534556066",
+      "labels": [
+        "macOS-latest"
+      ],
+      "runner_id": 5,
+      "runner_name": "GitHub Actions 5",
+      "runner_group_id": 2,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 11534556205,
+      "run_id": 4247848542,
+      "workflow_name": "Java CI",
+      "head_branch": "optimizing-ci-builds",
+      "run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/runs/4247848542",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOIAifNc8AAAACr4NcLQ",
+      "head_sha": "f4c9b71ea45a78c66b5884cc6ca534e629764347",
+      "url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/jobs/11534556205",
+      "html_url": "https://github.com/optimizing-ci-builds/99-problems/actions/runs/4247848542/jobs/7386347700",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2023-02-22T23:19:07Z",
+      "started_at": "2023-02-22T23:42:59Z",
+      "completed_at": "2023-02-22T23:45:19Z",
+      "name": "Test JDK 15, macOS-latest",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2023-02-22T17:42:59.000-06:00",
+          "completed_at": "2023-02-22T17:43:01.000-06:00"
+        },
+        {
+          "name": "Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2023-02-22T17:43:01.000-06:00",
+          "completed_at": "2023-02-22T17:43:03.000-06:00"
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2023-02-22T17:43:03.000-06:00",
+          "completed_at": "2023-02-22T17:44:06.000-06:00"
+        },
+        {
+          "name": "Run sudo apt update",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 4,
+          "started_at": "2023-02-22T17:44:06.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Run sudo apt install inotify-tools",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 5,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds'",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 6,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 7,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 8,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Run actions/checkout@v1",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 10,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 11,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Set up JDK",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 12,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 13,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 14,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Test with Maven",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 15,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Run touch starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Run rm starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2023-02-22T17:44:07.000-06:00",
+          "completed_at": "2023-02-22T17:44:07.000-06:00"
+        },
+        {
+          "name": "Execute py script",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 18,
+          "started_at": "2023-02-22T17:44:08.000-06:00",
+          "completed_at": "2023-02-22T17:44:08.000-06:00"
+        },
+        {
+          "name": "Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2023-02-22T17:44:08.000-06:00",
+          "completed_at": "2023-02-22T17:45:16.000-06:00"
+        },
+        {
+          "name": "Copy files to push to another directory",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 20,
+          "started_at": "2023-02-22T17:45:16.000-06:00",
+          "completed_at": "2023-02-22T17:45:16.000-06:00"
+        },
+        {
+          "name": "Pushes analysis to another repository",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 21,
+          "started_at": "2023-02-22T17:45:17.000-06:00",
+          "completed_at": "2023-02-22T17:45:17.000-06:00"
+        },
+        {
+          "name": "Post Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 41,
+          "started_at": "2023-02-22T17:45:17.000-06:00",
+          "completed_at": "2023-02-22T17:45:18.000-06:00"
+        },
+        {
+          "name": "Post Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 42,
+          "started_at": "2023-02-22T17:45:19.000-06:00",
+          "completed_at": "2023-02-22T17:45:19.000-06:00"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 43,
+          "started_at": "2023-02-22T17:45:18.000-06:00",
+          "completed_at": "2023-02-22T17:45:18.000-06:00"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/check-runs/11534556205",
+      "labels": [
+        "macOS-latest"
+      ],
+      "runner_id": 5,
+      "runner_name": "GitHub Actions 5",
+      "runner_group_id": 2,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 11534556326,
+      "run_id": 4247848542,
+      "workflow_name": "Java CI",
+      "head_branch": "optimizing-ci-builds",
+      "run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/runs/4247848542",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOIAifNc8AAAACr4Ncpg",
+      "head_sha": "f4c9b71ea45a78c66b5884cc6ca534e629764347",
+      "url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/jobs/11534556326",
+      "html_url": "https://github.com/optimizing-ci-builds/99-problems/actions/runs/4247848542/jobs/7386347779",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2023-02-22T23:19:08Z",
+      "started_at": "2023-02-22T23:41:13Z",
+      "completed_at": "2023-02-22T23:42:48Z",
+      "name": "Test JDK 8, windows-latest",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2023-02-22T17:41:13.000-06:00",
+          "completed_at": "2023-02-22T17:41:16.000-06:00"
+        },
+        {
+          "name": "Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2023-02-22T17:41:17.000-06:00",
+          "completed_at": "2023-02-22T17:41:21.000-06:00"
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2023-02-22T17:41:22.000-06:00",
+          "completed_at": "2023-02-22T17:42:00.000-06:00"
+        },
+        {
+          "name": "Run sudo apt update",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 4,
+          "started_at": "2023-02-22T17:42:00.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Run sudo apt install inotify-tools",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 5,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds'",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 6,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 7,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 8,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Run actions/checkout@v1",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 10,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 11,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Set up JDK",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 12,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 13,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 14,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Test with Maven",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 15,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:23.000-06:00"
+        },
+        {
+          "name": "Run touch starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2023-02-22T17:42:23.000-06:00",
+          "completed_at": "2023-02-22T17:42:24.000-06:00"
+        },
+        {
+          "name": "Run rm starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2023-02-22T17:42:24.000-06:00",
+          "completed_at": "2023-02-22T17:42:24.000-06:00"
+        },
+        {
+          "name": "Execute py script",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 18,
+          "started_at": "2023-02-22T17:42:25.000-06:00",
+          "completed_at": "2023-02-22T17:42:25.000-06:00"
+        },
+        {
+          "name": "Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2023-02-22T17:42:25.000-06:00",
+          "completed_at": "2023-02-22T17:42:43.000-06:00"
+        },
+        {
+          "name": "Copy files to push to another directory",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 20,
+          "started_at": "2023-02-22T17:42:43.000-06:00",
+          "completed_at": "2023-02-22T17:42:43.000-06:00"
+        },
+        {
+          "name": "Pushes analysis to another repository",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 21,
+          "started_at": "2023-02-22T17:42:44.000-06:00",
+          "completed_at": "2023-02-22T17:42:44.000-06:00"
+        },
+        {
+          "name": "Post Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 41,
+          "started_at": "2023-02-22T17:42:44.000-06:00",
+          "completed_at": "2023-02-22T17:42:47.000-06:00"
+        },
+        {
+          "name": "Post Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 42,
+          "started_at": "2023-02-22T17:42:48.000-06:00",
+          "completed_at": "2023-02-22T17:42:48.000-06:00"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 43,
+          "started_at": "2023-02-22T17:42:47.000-06:00",
+          "completed_at": "2023-02-22T17:42:47.000-06:00"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/check-runs/11534556326",
+      "labels": [
+        "windows-latest"
+      ],
+      "runner_id": 3,
+      "runner_name": "GitHub Actions 3",
+      "runner_group_id": 2,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 11534556429,
+      "run_id": 4247848542,
+      "workflow_name": "Java CI",
+      "head_branch": "optimizing-ci-builds",
+      "run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/runs/4247848542",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOIAifNc8AAAACr4NdDQ",
+      "head_sha": "f4c9b71ea45a78c66b5884cc6ca534e629764347",
+      "url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/jobs/11534556429",
+      "html_url": "https://github.com/optimizing-ci-builds/99-problems/actions/runs/4247848542/jobs/7386347851",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2023-02-22T23:19:08Z",
+      "started_at": "2023-02-22T23:42:46Z",
+      "completed_at": "2023-02-22T23:45:05Z",
+      "name": "Test JDK 11, windows-latest",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2023-02-22T17:42:46.000-06:00",
+          "completed_at": "2023-02-22T17:42:48.000-06:00"
+        },
+        {
+          "name": "Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2023-02-22T17:42:48.000-06:00",
+          "completed_at": "2023-02-22T17:42:52.000-06:00"
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2023-02-22T17:42:52.000-06:00",
+          "completed_at": "2023-02-22T17:43:47.000-06:00"
+        },
+        {
+          "name": "Run sudo apt update",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 4,
+          "started_at": "2023-02-22T17:43:47.000-06:00",
+          "completed_at": "2023-02-22T17:44:27.000-06:00"
+        },
+        {
+          "name": "Run sudo apt install inotify-tools",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 5,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds'",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 6,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 7,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 8,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Run actions/checkout@v1",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 10,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 11,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Set up JDK",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 12,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 13,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 14,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Test with Maven",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 15,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Run touch starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2023-02-22T17:44:28.000-06:00",
+          "completed_at": "2023-02-22T17:44:28.000-06:00"
+        },
+        {
+          "name": "Run rm starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2023-02-22T17:44:29.000-06:00",
+          "completed_at": "2023-02-22T17:44:29.000-06:00"
+        },
+        {
+          "name": "Execute py script",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 18,
+          "started_at": "2023-02-22T17:44:29.000-06:00",
+          "completed_at": "2023-02-22T17:44:29.000-06:00"
+        },
+        {
+          "name": "Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2023-02-22T17:44:30.000-06:00",
+          "completed_at": "2023-02-22T17:44:59.000-06:00"
+        },
+        {
+          "name": "Copy files to push to another directory",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 20,
+          "started_at": "2023-02-22T17:45:00.000-06:00",
+          "completed_at": "2023-02-22T17:45:00.000-06:00"
+        },
+        {
+          "name": "Pushes analysis to another repository",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 21,
+          "started_at": "2023-02-22T17:45:00.000-06:00",
+          "completed_at": "2023-02-22T17:45:00.000-06:00"
+        },
+        {
+          "name": "Post Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 41,
+          "started_at": "2023-02-22T17:45:01.000-06:00",
+          "completed_at": "2023-02-22T17:45:04.000-06:00"
+        },
+        {
+          "name": "Post Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 42,
+          "started_at": "2023-02-22T17:45:05.000-06:00",
+          "completed_at": "2023-02-22T17:45:05.000-06:00"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 43,
+          "started_at": "2023-02-22T17:45:04.000-06:00",
+          "completed_at": "2023-02-22T17:45:04.000-06:00"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/check-runs/11534556429",
+      "labels": [
+        "windows-latest"
+      ],
+      "runner_id": 21,
+      "runner_name": "GitHub Actions 6",
+      "runner_group_id": 2,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 11534556545,
+      "run_id": 4247848542,
+      "workflow_name": "Java CI",
+      "head_branch": "optimizing-ci-builds",
+      "run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/runs/4247848542",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOIAifNc8AAAACr4NdgQ",
+      "head_sha": "f4c9b71ea45a78c66b5884cc6ca534e629764347",
+      "url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/actions/jobs/11534556545",
+      "html_url": "https://github.com/optimizing-ci-builds/99-problems/actions/runs/4247848542/jobs/7386347943",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2023-02-22T23:19:08Z",
+      "started_at": "2023-02-22T23:49:01Z",
+      "completed_at": "2023-02-22T23:51:04Z",
+      "name": "Test JDK 15, windows-latest",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2023-02-22T17:49:00.000-06:00",
+          "completed_at": "2023-02-22T17:49:02.000-06:00"
+        },
+        {
+          "name": "Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2023-02-22T17:49:02.000-06:00",
+          "completed_at": "2023-02-22T17:49:08.000-06:00"
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2023-02-22T17:49:08.000-06:00",
+          "completed_at": "2023-02-22T17:50:00.000-06:00"
+        },
+        {
+          "name": "Run sudo apt update",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 4,
+          "started_at": "2023-02-22T17:50:00.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Run sudo apt install inotify-tools",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 5,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds'",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 6,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 7,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_uses-checkout_18",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 8,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Run actions/checkout@v1",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 9,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 10,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_SetupJDK_19",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 11,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Set up JDK",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 12,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Run touch starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 13,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Run rm starting_test_TestwithMaven_23",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 14,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Test with Maven",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 15,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:35.000-06:00"
+        },
+        {
+          "name": "Run touch starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2023-02-22T17:50:35.000-06:00",
+          "completed_at": "2023-02-22T17:50:36.000-06:00"
+        },
+        {
+          "name": "Run rm starting_finished_finished_8979874",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2023-02-22T17:50:36.000-06:00",
+          "completed_at": "2023-02-22T17:50:37.000-06:00"
+        },
+        {
+          "name": "Execute py script",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 18,
+          "started_at": "2023-02-22T17:50:37.000-06:00",
+          "completed_at": "2023-02-22T17:50:37.000-06:00"
+        },
+        {
+          "name": "Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2023-02-22T17:50:37.000-06:00",
+          "completed_at": "2023-02-22T17:50:58.000-06:00"
+        },
+        {
+          "name": "Copy files to push to another directory",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 20,
+          "started_at": "2023-02-22T17:50:58.000-06:00",
+          "completed_at": "2023-02-22T17:50:59.000-06:00"
+        },
+        {
+          "name": "Pushes analysis to another repository",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 21,
+          "started_at": "2023-02-22T17:50:59.000-06:00",
+          "completed_at": "2023-02-22T17:50:59.000-06:00"
+        },
+        {
+          "name": "Post Checkout to destination CI-analyzes repo",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 41,
+          "started_at": "2023-02-22T17:50:59.000-06:00",
+          "completed_at": "2023-02-22T17:51:03.000-06:00"
+        },
+        {
+          "name": "Post Run actions/setup-python@v2",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 42,
+          "started_at": "2023-02-22T17:51:04.000-06:00",
+          "completed_at": "2023-02-22T17:51:04.000-06:00"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 43,
+          "started_at": "2023-02-22T17:51:03.000-06:00",
+          "completed_at": "2023-02-22T17:51:03.000-06:00"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/optimizing-ci-builds/99-problems/check-runs/11534556545",
+      "labels": [
+        "windows-latest"
+      ],
+      "runner_id": 5,
+      "runner_name": "GitHub Actions 5",
+      "runner_group_id": 2,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}

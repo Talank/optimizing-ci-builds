@@ -1,0 +1,219 @@
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Set up job,1,0:00:02
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run actions/setup-python@v2,2,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Install dependencies,3,0:00:12
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run sudo apt update,4,0:00:05
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run sudo apt install inotify-tools,5,0:00:04
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds',6,0:00:05
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run touch starting_test_uses-checkout_18,7,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run rm starting_test_uses-checkout_18,8,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run actions/checkout@v1,9,0:00:01
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run touch starting_test_SetupJDK_19,10,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run rm starting_test_SetupJDK_19,11,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Set up JDK,12,0:00:02
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run touch starting_test_TestwithMaven_23,13,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run rm starting_test_TestwithMaven_23,14,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Test with Maven,15,0:00:08
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run touch starting_finished_finished_8979874,16,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Run rm starting_finished_finished_8979874,17,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Execute py script,18,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Checkout to destination CI-analyzes repo,19,0:00:01
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Copy files to push to another directory,20,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Pushes analysis to another repository,21,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Post Checkout to destination CI-analyzes repo,40,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Post Set up JDK,41,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Post Run actions/setup-python@v2,42,0:00:00
+yaml_path,github_link,sha,Test JDK 8; ubuntu-latest,4247848542,Complete job,43,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Set up job,1,0:00:02
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run actions/setup-python@v2,2,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Install dependencies,3,0:00:11
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run sudo apt update,4,0:00:04
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run sudo apt install inotify-tools,5,0:00:03
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds',6,0:00:05
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run touch starting_test_uses-checkout_18,7,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run rm starting_test_uses-checkout_18,8,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run actions/checkout@v1,9,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run touch starting_test_SetupJDK_19,10,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run rm starting_test_SetupJDK_19,11,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Set up JDK,12,0:00:05
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run touch starting_test_TestwithMaven_23,13,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run rm starting_test_TestwithMaven_23,14,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Test with Maven,15,0:00:10
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run touch starting_finished_finished_8979874,16,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Run rm starting_finished_finished_8979874,17,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Execute py script,18,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Checkout to destination CI-analyzes repo,19,0:00:01
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Copy files to push to another directory,20,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Pushes analysis to another repository,21,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Post Checkout to destination CI-analyzes repo,40,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Post Set up JDK,41,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Post Run actions/setup-python@v2,42,0:00:00
+yaml_path,github_link,sha,Test JDK 11; ubuntu-latest,4247848542,Complete job,43,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Set up job,1,0:00:01
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run actions/setup-python@v2,2,0:00:01
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Install dependencies,3,0:00:10
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run sudo apt update,4,0:00:05
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run sudo apt install inotify-tools,5,0:00:04
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds',6,0:00:05
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run touch starting_test_uses-checkout_18,7,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run rm starting_test_uses-checkout_18,8,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run actions/checkout@v1,9,0:00:01
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run touch starting_test_SetupJDK_19,10,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run rm starting_test_SetupJDK_19,11,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Set up JDK,12,0:00:05
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run touch starting_test_TestwithMaven_23,13,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run rm starting_test_TestwithMaven_23,14,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Test with Maven,15,0:00:09
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run touch starting_finished_finished_8979874,16,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Run rm starting_finished_finished_8979874,17,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Execute py script,18,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Checkout to destination CI-analyzes repo,19,0:00:01
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Copy files to push to another directory,20,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Pushes analysis to another repository,21,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Post Checkout to destination CI-analyzes repo,40,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Post Set up JDK,41,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Post Run actions/setup-python@v2,42,0:00:00
+yaml_path,github_link,sha,Test JDK 15; ubuntu-latest,4247848542,Complete job,43,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Set up job,1,0:00:04
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run actions/setup-python@v2,2,0:00:01
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Install dependencies,3,0:00:20
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run sudo apt update,4,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run sudo apt install inotify-tools,5,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds',6,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run touch starting_test_uses-checkout_18,7,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run rm starting_test_uses-checkout_18,8,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run actions/checkout@v1,9,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run touch starting_test_SetupJDK_19,10,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run rm starting_test_SetupJDK_19,11,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Set up JDK,12,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run touch starting_test_TestwithMaven_23,13,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run rm starting_test_TestwithMaven_23,14,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Test with Maven,15,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run touch starting_finished_finished_8979874,16,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Run rm starting_finished_finished_8979874,17,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Execute py script,18,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Checkout to destination CI-analyzes repo,19,0:00:02
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Copy files to push to another directory,20,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Pushes analysis to another repository,21,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Post Checkout to destination CI-analyzes repo,41,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Post Run actions/setup-python@v2,42,0:00:00
+yaml_path,github_link,sha,Test JDK 8; macOS-latest,4247848542,Complete job,43,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Set up job,1,0:00:03
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run actions/setup-python@v2,2,0:00:02
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Install dependencies,3,0:00:20
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run sudo apt update,4,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run sudo apt install inotify-tools,5,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds',6,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run touch starting_test_uses-checkout_18,7,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run rm starting_test_uses-checkout_18,8,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run actions/checkout@v1,9,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run touch starting_test_SetupJDK_19,10,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run rm starting_test_SetupJDK_19,11,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Set up JDK,12,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run touch starting_test_TestwithMaven_23,13,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run rm starting_test_TestwithMaven_23,14,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Test with Maven,15,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run touch starting_finished_finished_8979874,16,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Run rm starting_finished_finished_8979874,17,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Execute py script,18,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Checkout to destination CI-analyzes repo,19,0:00:03
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Copy files to push to another directory,20,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Pushes analysis to another repository,21,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Post Checkout to destination CI-analyzes repo,41,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Post Run actions/setup-python@v2,42,0:00:00
+yaml_path,github_link,sha,Test JDK 11; macOS-latest,4247848542,Complete job,43,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Set up job,1,0:00:02
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run actions/setup-python@v2,2,0:00:02
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Install dependencies,3,0:01:03
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run sudo apt update,4,0:00:01
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run sudo apt install inotify-tools,5,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds',6,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run touch starting_test_uses-checkout_18,7,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run rm starting_test_uses-checkout_18,8,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run actions/checkout@v1,9,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run touch starting_test_SetupJDK_19,10,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run rm starting_test_SetupJDK_19,11,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Set up JDK,12,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run touch starting_test_TestwithMaven_23,13,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run rm starting_test_TestwithMaven_23,14,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Test with Maven,15,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run touch starting_finished_finished_8979874,16,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Run rm starting_finished_finished_8979874,17,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Execute py script,18,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Checkout to destination CI-analyzes repo,19,0:01:08
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Copy files to push to another directory,20,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Pushes analysis to another repository,21,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Post Checkout to destination CI-analyzes repo,41,0:00:01
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Post Run actions/setup-python@v2,42,0:00:00
+yaml_path,github_link,sha,Test JDK 15; macOS-latest,4247848542,Complete job,43,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Set up job,1,0:00:03
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run actions/setup-python@v2,2,0:00:04
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Install dependencies,3,0:00:38
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run sudo apt update,4,0:00:23
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run sudo apt install inotify-tools,5,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds',6,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run touch starting_test_uses-checkout_18,7,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run rm starting_test_uses-checkout_18,8,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run actions/checkout@v1,9,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run touch starting_test_SetupJDK_19,10,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run rm starting_test_SetupJDK_19,11,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Set up JDK,12,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run touch starting_test_TestwithMaven_23,13,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run rm starting_test_TestwithMaven_23,14,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Test with Maven,15,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run touch starting_finished_finished_8979874,16,0:00:01
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Run rm starting_finished_finished_8979874,17,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Execute py script,18,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Checkout to destination CI-analyzes repo,19,0:00:18
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Copy files to push to another directory,20,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Pushes analysis to another repository,21,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Post Checkout to destination CI-analyzes repo,41,0:00:03
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Post Run actions/setup-python@v2,42,0:00:00
+yaml_path,github_link,sha,Test JDK 8; windows-latest,4247848542,Complete job,43,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Set up job,1,0:00:02
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run actions/setup-python@v2,2,0:00:04
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Install dependencies,3,0:00:55
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run sudo apt update,4,0:00:40
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run sudo apt install inotify-tools,5,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds',6,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run touch starting_test_uses-checkout_18,7,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run rm starting_test_uses-checkout_18,8,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run actions/checkout@v1,9,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run touch starting_test_SetupJDK_19,10,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run rm starting_test_SetupJDK_19,11,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Set up JDK,12,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run touch starting_test_TestwithMaven_23,13,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run rm starting_test_TestwithMaven_23,14,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Test with Maven,15,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run touch starting_finished_finished_8979874,16,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Run rm starting_finished_finished_8979874,17,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Execute py script,18,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Checkout to destination CI-analyzes repo,19,0:00:29
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Copy files to push to another directory,20,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Pushes analysis to another repository,21,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Post Checkout to destination CI-analyzes repo,41,0:00:03
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Post Run actions/setup-python@v2,42,0:00:00
+yaml_path,github_link,sha,Test JDK 11; windows-latest,4247848542,Complete job,43,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Set up job,1,0:00:02
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run actions/setup-python@v2,2,0:00:06
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Install dependencies,3,0:00:52
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run sudo apt update,4,0:00:35
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run sudo apt install inotify-tools,5,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run inotifywait -mr /home/runner/work/99-problems/99-problems/ --format '%T;%w;%f;%e' --timefmt %T -o /home/runner/inotify-logs.csv & echo 'optimizing-ci-builds',6,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run touch starting_test_uses-checkout_18,7,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run rm starting_test_uses-checkout_18,8,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run actions/checkout@v1,9,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run touch starting_test_SetupJDK_19,10,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run rm starting_test_SetupJDK_19,11,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Set up JDK,12,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run touch starting_test_TestwithMaven_23,13,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run rm starting_test_TestwithMaven_23,14,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Test with Maven,15,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run touch starting_finished_finished_8979874,16,0:00:01
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Run rm starting_finished_finished_8979874,17,0:00:01
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Execute py script,18,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Checkout to destination CI-analyzes repo,19,0:00:21
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Copy files to push to another directory,20,0:00:01
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Pushes analysis to another repository,21,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Post Checkout to destination CI-analyzes repo,41,0:00:04
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Post Run actions/setup-python@v2,42,0:00:00
+yaml_path,github_link,sha,Test JDK 15; windows-latest,4247848542,Complete job,43,0:00:00

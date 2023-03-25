@@ -1,0 +1,23 @@
+repo,workflow_name,workflow_path,workflow_link
+matsim-example-project,Java CI with Maven,.github/workflows/maven.yml,https://github.com/optimizing-ci-builds/matsim-example-project/blob/master/.github/workflows/maven.yml
+jv-fruit-shop,Java CI,.github/workflows/ci.yml,https://github.com/optimizing-ci-builds/jv-fruit-shop/blob/master/.github/workflows/ci.yml
+pipelines-java,CodeQL,.github/workflows/codeql-analysis.yml,https://github.com/optimizing-ci-builds/pipelines-java/blob/main/.github/workflows/codeql-analysis.yml
+Algorithms,QA check,.github/workflows/check.yml,https://github.com/optimizing-ci-builds/Algorithms/blob/master/.github/workflows/check.yml
+spring-petclinic-rest,Java CI with Maven,.github/workflows/maven-build.yml,https://github.com/optimizing-ci-builds/spring-petclinic-rest/blob/master/.github/workflows/maven-build.yml
+MavenTestCI,Java CI,.github/workflows/ci.yml,https://github.com/optimizing-ci-builds/MavenTestCI/blob/main/.github/workflows/ci.yml
+aws-cf-templates,CI,.github/workflows/ci.yml,https://github.com/optimizing-ci-builds/aws-cf-templates/blob/master/.github/workflows/ci.yml
+dynamic-datasource-spring-boot-starter,Java CI with Maven,.github/workflows/maven.yml,https://github.com/optimizing-ci-builds/dynamic-datasource-spring-boot-starter/blob/master/.github/workflows/maven.yml
+open-location-code,CI,.github/workflows/main.yml,https://github.com/optimizing-ci-builds/open-location-code/blob/main/.github/workflows/main.yml
+Mybatis-PageHelper,Maven verify,.github/workflows/pull-request.yml,https://github.com/optimizing-ci-builds/Mybatis-PageHelper/blob/master/.github/workflows/pull-request.yml
+kafdrop,Release with mvn,.github/workflows/master.yml,https://github.com/optimizing-ci-builds/kafdrop/blob/master/.github/workflows/master.yml
+mooc-software-testing,Java CI with Maven,.github/workflows/maven.yml,https://github.com/optimizing-ci-builds/mooc-software-testing/blob/master/.github/workflows/maven.yml
+GradleTestCI,Java CI,.github/workflows/ci.yml,https://github.com/optimizing-ci-builds/GradleTestCI/blob/main/.github/workflows/ci.yml
+symphony,Build Test,.github/workflows/ci.yml,https://github.com/optimizing-ci-builds/symphony/blob/master/.github/workflows/ci.yml
+soot,Soot CI,.github/workflows/ci.yml,https://github.com/optimizing-ci-builds/soot/blob/develop/.github/workflows/ci.yml
+99-problems,Java CI,.github/workflows/ci.yml,https://github.com/optimizing-ci-builds/99-problems/blob/master/.github/workflows/ci.yml
+mcMMO,Compile and test,.github/workflows/maven.yml,https://github.com/optimizing-ci-builds/mcMMO/blob/master/.github/workflows/maven.yml
+spring-framework-petclinic,Java CI with Maven,.github/workflows/maven-build.yml,https://github.com/optimizing-ci-builds/spring-framework-petclinic/blob/master/.github/workflows/maven-build.yml
+joda-time,Build,.github/workflows/build.yml,https://github.com/optimizing-ci-builds/joda-time/blob/master/.github/workflows/build.yml
+Java-WebSocket,Continuous Integration,.github/workflows/ci.yml,https://github.com/optimizing-ci-builds/Java-WebSocket/blob/master/.github/workflows/ci.yml
+Java-WebSocket,Java Code Style Check with Maven,.github/workflows/checkstyle.yml,https://github.com/optimizing-ci-builds/Java-WebSocket/blob/master/.github/workflows/checkstyle.yml
+cucumber-java-skeleton,Cucumber CI,.github/workflows/build.yml,https://github.com/optimizing-ci-builds/cucumber-java-skeleton/blob/main/.github/workflows/build.yml
